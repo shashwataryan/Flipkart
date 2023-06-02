@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Parallel testing]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="classes" name="Test Case 1(failed)" verbose="0">
+    <classes>
+      <class name="testCases.CompareDeliveryDate">
+        <parameter name="inputParam" value="Oppo"/>
+        <methods>
+          <include name="deliveryDate"/>
+          <include name="openFlipkart"/>
+          <include name="beforeSuiteSetup"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testCases.CompareDeliveryDate -->
+      <class name="testCases.AddToCart">
+        <parameter name="inputParam" value="Poco"/>
+        <methods>
+          <include name="CartProduct"/>
+          <include name="openFlipkart"/>
+          <include name="beforeSuiteSetup"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testCases.AddToCart -->
+      <class name="testCases.PlaceOrder">
+        <parameter name="inputParam" value="iPhone"/>
+        <methods>
+          <include name="openFlipkart"/>
+          <include name="beforeSuiteSetup"/>
+          <include name="placeOrder"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testCases.PlaceOrder -->
+    </classes>
+  </test> <!-- Test Case 1(failed) -->
+</suite> <!-- Failed suite [Parallel testing] -->

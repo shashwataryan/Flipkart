@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parallel testing" thread-count="2" parallel="classes">
+	<test name="Test Case 1">
+		<classes>
+			<class name="testCases.AddToCart">
+				<parameter name="inputParam" value="${Value1}" />
+			</class>
+			<class name="testCases.SearchProduct">
+				<parameter name="inputParam" value="${Value2}" />
+			</class>
+			<class name="testCases.LoginTest">
+				<parameter name="inputParam" value="${Value3}" />
+			</class>
+			<class name="testCases.CompareMobileRatings">
+				<parameter name="inputParam" value="${Value4}" />
+				<parameter name="inputParam" value="${Value7}" />
+			</class>
+
+			<class name="testCases.PlaceOrder">
+				<parameter name="inputParam" value="${Value5}" />
+			</class>
+			<class name="testCases.Footer">
+			</class>
+			<class name="testCases.CompareDeliveryDate">
+				<parameter name="inputParam" value="${Value6}" />
+			</class>
+		</classes>
+	</test>
+</suite>

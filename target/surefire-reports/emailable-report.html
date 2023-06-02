@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Parallel testing</th></tr>
+<tr><td><a href="#t0">Test Case 1</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">102,815</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Parallel testing</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test Case 1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.AddToCart</td><td><a href="#m0">CartProduct</a></td><td rowspan="1">1685645002777</td><td rowspan="1">48707</td></tr><tr class="failedodd"><td rowspan="1">testCases.CompareDeliveryDate</td><td><a href="#m1">deliveryDate</a></td><td rowspan="1">1685645090968</td><td rowspan="1">5298</td></tr><tr class="failedeven"><td rowspan="1">testCases.PlaceOrder</td><td><a href="#m2">placeOrder</a></td><td rowspan="1">1685645051487</td><td rowspan="1">39478</td></tr><tr><th colspan="4">Test Case 1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.CompareMobileRatings</td><td><a href="#m3">MobileRatings</a></td><td rowspan="1">1685645051000</td><td rowspan="1">26182</td></tr><tr class="passedodd"><td rowspan="1">testCases.Footer</td><td><a href="#m4">checkSocialSites</a></td><td rowspan="1">1685645077183</td><td rowspan="1">28363</td></tr><tr class="passedeven"><td rowspan="1">testCases.LoginTest</td><td><a href="#m5">loginNegativeTestCase</a></td><td rowspan="1">1685645040230</td><td rowspan="1">10769</td></tr><tr class="passedodd"><td rowspan="1">testCases.SearchProduct</td><td><a href="#m6">selectShoes</a></td><td rowspan="1">1685645002777</td><td rowspan="1">37449</td></tr></tbody>
+</table>
+<h2>Test Case 1</h2><h3 id="m0">testCases.AddToCart#CartProduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at testCases.AddToCart.CartProduct(AddToCart.java:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.CompareDeliveryDate#deliveryDate</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at testCases.CompareDeliveryDate.deliveryDate(CompareDeliveryDate.java:85)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCases.PlaceOrder#placeOrder</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at testCases.PlaceOrder.placeOrder(PlaceOrder.java:132)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testCases.CompareMobileRatings#MobileRatings</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testCases.Footer#checkSocialSites</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testCases.LoginTest#loginNegativeTestCase</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testCases.SearchProduct#selectShoes</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

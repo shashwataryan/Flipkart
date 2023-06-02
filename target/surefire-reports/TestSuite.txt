@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 104.517 s <<< FAILURE! - in TestSuite
+testCases.AddToCart.CartProduct  Time elapsed: 0.48 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at testCases.AddToCart.CartProduct(AddToCart.java:103)
+
+testCases.PlaceOrder.placeOrder  Time elapsed: 13.782 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at testCases.PlaceOrder.placeOrder(PlaceOrder.java:132)
+
+testCases.CompareDeliveryDate.deliveryDate  Time elapsed: 5.299 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at testCases.CompareDeliveryDate.deliveryDate(CompareDeliveryDate.java:85)
+

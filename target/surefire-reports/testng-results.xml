@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="17" passed="4" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-02T00:13:22 IST" name="Parallel testing" finished-at="2023-06-02T00:15:05 IST" duration-ms="102815">
+    <groups>
+    </groups>
+    <test started-at="2023-06-02T00:13:22 IST" name="Test Case 1" finished-at="2023-06-02T00:15:05 IST" duration-ms="102815">
+      <class name="testCases.CompareDeliveryDate">
+        <test-method is-config="true" signature="openFlipkart(java.lang.String)[pri:0, instance:testCases.CompareDeliveryDate@359f7cdf]" started-at="2023-06-02T00:14:50 IST" name="openFlipkart" finished-at="2023-06-02T00:14:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Oppo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFlipkart -->
+        <test-method signature="deliveryDate()[pri:0, instance:testCases.CompareDeliveryDate@359f7cdf]" started-at="2023-06-02T00:14:50 IST" name="deliveryDate" finished-at="2023-06-02T00:14:56 IST" duration-ms="5298" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.fail(Assert.java:115)
+at testCases.CompareDeliveryDate.deliveryDate(CompareDeliveryDate.java:85)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deliveryDate -->
+      </class> <!-- testCases.CompareDeliveryDate -->
+      <class name="testCases.LoginTest">
+        <test-method is-config="true" signature="openFlipkart(java.lang.String)[pri:0, instance:testCases.LoginTest@4567f35d]" started-at="2023-06-02T00:14:00 IST" name="openFlipkart" finished-at="2023-06-02T00:14:00 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dfsd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFlipkart -->
+        <test-method signature="loginNegativeTestCase()[pri:0, instance:testCases.LoginTest@4567f35d]" started-at="2023-06-02T00:14:00 IST" name="loginNegativeTestCase" finished-at="2023-06-02T00:14:10 IST" duration-ms="10769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeTestCase -->
+      </class> <!-- testCases.LoginTest -->
+      <class name="testCases.AddToCart">
+        <test-method is-config="true" signature="beforeSuiteSetup()[pri:0, instance:testCases.AddToCart@74e52303]" started-at="2023-06-02T00:13:22 IST" name="beforeSuiteSetup" finished-at="2023-06-02T00:13:22 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteSetup -->
+        <test-method is-config="true" signature="openFlipkart(java.lang.String)[pri:0, instance:testCases.AddToCart@74e52303]" started-at="2023-06-02T00:13:22 IST" name="openFlipkart" finished-at="2023-06-02T00:13:22 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Poco]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFlipkart -->
+        <test-method signature="CartProduct()[pri:0, instance:testCases.AddToCart@74e52303]" started-at="2023-06-02T00:13:22 IST" name="CartProduct" finished-at="2023-06-02T00:14:11 IST" duration-ms="48707" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.fail(Assert.java:115)
+at testCases.AddToCart.CartProduct(AddToCart.java:103)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartProduct -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testCases.AddToCart@74e52303]" started-at="2023-06-02T00:15:05 IST" name="afterSuite" finished-at="2023-06-02T00:15:05 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testCases.AddToCart -->
+      <class name="testCases.PlaceOrder">
+        <test-method is-config="true" signature="openFlipkart(java.lang.String)[pri:0, instance:testCases.PlaceOrder@6356695f]" started-at="2023-06-02T00:14:11 IST" name="openFlipkart" finished-at="2023-06-02T00:14:11 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFlipkart -->
+        <test-method signature="placeOrder()[pri:0, instance:testCases.PlaceOrder@6356695f]" started-at="2023-06-02T00:14:11 IST" name="placeOrder" finished-at="2023-06-02T00:14:50 IST" duration-ms="39478" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.fail(Assert.java:115)
+at testCases.PlaceOrder.placeOrder(PlaceOrder.java:132)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+      </class> <!-- testCases.PlaceOrder -->
+      <class name="testCases.CompareMobileRatings">
+        <test-method signature="MobileRatings()[pri:0, instance:testCases.CompareMobileRatings@5ffead27]" started-at="2023-06-02T00:14:11 IST" name="MobileRatings" finished-at="2023-06-02T00:14:37 IST" duration-ms="26182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileRatings -->
+        <test-method is-config="true" signature="openFlipkart(java.lang.String,java.lang.Double)[pri:0, instance:testCases.CompareMobileRatings@5ffead27]" started-at="2023-06-02T00:14:11 IST" name="openFlipkart" finished-at="2023-06-02T00:14:11 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFlipkart -->
+      </class> <!-- testCases.CompareMobileRatings -->
+      <class name="testCases.SearchProduct">
+        <test-method is-config="true" signature="openFlipkart(java.lang.String)[pri:0, instance:testCases.SearchProduct@2e005c4b]" started-at="2023-06-02T00:13:22 IST" name="openFlipkart" finished-at="2023-06-02T00:13:22 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shoes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFlipkart -->
+        <test-method signature="selectShoes()[pri:0, instance:testCases.SearchProduct@2e005c4b]" started-at="2023-06-02T00:13:22 IST" name="selectShoes" finished-at="2023-06-02T00:14:00 IST" duration-ms="37449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectShoes -->
+      </class> <!-- testCases.SearchProduct -->
+      <class name="testCases.Footer">
+        <test-method signature="checkSocialSites()[pri:0, instance:testCases.Footer@4f18837a]" started-at="2023-06-02T00:14:37 IST" name="checkSocialSites" finished-at="2023-06-02T00:15:05 IST" duration-ms="28363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSocialSites -->
+      </class> <!-- testCases.Footer -->
+    </test> <!-- Test Case 1 -->
+  </suite> <!-- Parallel testing -->
+</testng-results>
